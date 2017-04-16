@@ -1,0 +1,16 @@
+[
+{
+  "modid": "survivalrecipes",
+  "name": "Survival Recipes",
+  "description": "A couple recipes to improve your survival.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Carsten Ringe"],
+  "credits": "For my loved one.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
