@@ -33,7 +33,7 @@ minecraft {
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 
     replaceIn "de/kopis/survivalrecipes/SurvivalRecipes.java"
-    replace "@@MOD_VERSION@@", version
+    replace "@@MOD_VERSION@@", "1.2"
     replace "@@MOD_ID@@", archivesBaseName
 }
 
