@@ -12,6 +12,31 @@ Saddle
 
 `X` = *leather*, `Y` = *iron ingot*
 
+Elytra base
+-----------
+
+    XX#
+    XY#
+    XY#
+
+`X` = *blaze rod*, `Y` = *paper*
+
+Elytra part
+-----------
+
+    XXX
+    XYX
+    XXX
+
+`X` = *emerald*, `Y` = *elytra base*
+
+Elytra
+------
+
+    XX
+
+`X` = *elytra part*
+
 Smelting
 ========
 
