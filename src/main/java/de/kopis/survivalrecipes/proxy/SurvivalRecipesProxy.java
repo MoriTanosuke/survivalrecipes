@@ -8,11 +8,17 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class SurvivalRecipesProxy {
-    Item elytraBase = new ItemElytraBase();
-    Item elytraPart = new ItemElytraPart();
+    Item elytraBase;
+    Item elytraPart;
 
     public void init()
     {
+        elytraBase = new ItemElytraBase();
+        elytraPart = new ItemElytraPart();
+
+        GameRegistry.register(elytraBase);
+        GameRegistry.register(elytraPart);
+
         // recipe: saddle
         GameRegistry.addRecipe(new ItemStack(Items.SADDLE, 1), new Object[] {"X#X", "XXX", "#Y#", 'X', Items.LEATHER, 'Y', Items.IRON_INGOT});
         // recipe: elytra base
