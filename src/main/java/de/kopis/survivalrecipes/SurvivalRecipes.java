@@ -58,6 +58,8 @@ public class SurvivalRecipes
         GameRegistry.addRecipe(new ItemStack(elytraPart, 1), new Object[] {"XXX", "XYX", "XXX", 'X', Items.EMERALD, 'Y', elytraBase});
         // recipe: elytra
         GameRegistry.addRecipe(new ItemStack(Items.ELYTRA, 1), new Object[] {"XX", 'X', elytraPart});
+        // recipe: name tag
+        GameRegistry.addRecipe(new ItemStack(Items.NAME_TAG, 1), new Object[] {"##Y", "#Z#", "X##", 'X', Items.IRON_INGOT, 'Y', Items.STRING, 'Z', Items.LEATHER});
 
         // smelting: rotten flesh -> leather
         GameRegistry.addSmelting(Items.ROTTEN_FLESH, new ItemStack(Items.LEATHER, 1), 1);

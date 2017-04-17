@@ -37,6 +37,14 @@ Elytra
 
 `X` = *elytra part*
 
+Name tag
+--------
+    ##Y
+    #Z#
+    X##
+
+`X` = *iron ingot*, `Y` = *string*, `Z` = *leather*
+
 Smelting
 ========
 
