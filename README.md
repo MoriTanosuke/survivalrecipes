@@ -15,6 +15,8 @@ Saddle
 Elytra base
 -----------
 
+![Elytra base recipe](docs/recipes/elytra_base.png)
+
     XX#
     XY#
     XY#
@@ -24,6 +26,8 @@ Elytra base
 Elytra part
 -----------
 
+![Elytra part recipe](docs/recipes/elytra_part.png)
+
     XXX
     XYX
     XXX
@@ -32,6 +36,8 @@ Elytra part
 
 Elytra
 ------
+
+![Elytra recipe](docs/recipes/elytra.png)
 
     XX
 
